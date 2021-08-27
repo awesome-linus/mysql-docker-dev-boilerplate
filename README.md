@@ -4,7 +4,7 @@ MySQL Database For Local Dev.
 Use direnv to export environment variables for docker mysql.
 
 - example
-```envrc
+```.envrc
 export DB_HOST=127.0.0.1
 export DB_NAME=db_name
 export DB_USER=username
