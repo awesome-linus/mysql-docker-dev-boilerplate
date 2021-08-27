@@ -3,7 +3,7 @@ services:
   mysql:
     build:
       context: .
-      dockerfile: docker/local/mysql/Dockerfile
+      dockerfile: Dockerfile
     environment:
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
