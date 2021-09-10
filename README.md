@@ -13,6 +13,12 @@ export DB_PASSWORD=password
 ```
 
 ## Connect
+- Root
+```sh
+mysql -h0.0.0.0 -uroot
+```
+
+- User
 ```sh
 mysql -P3306 -h0.0.0.0  -u'username' -p'password'
 ```
